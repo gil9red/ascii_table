@@ -51,11 +51,11 @@ QString ascii_table(const QList<QStringList>& rows) {
             row_pattern = row_pattern.arg(cell, -col_len);
         }
 
-        table += row_pattern + "\n";
+        table += " " + row_pattern + "\n";
 
         // TODO: Так лучше не делать, а разделить генерацию заголовка и тела таблицы
         if (row == 0) {
-            table += separators + "\n";
+            table += "-" + separators + "\n";
         }
     }
 
