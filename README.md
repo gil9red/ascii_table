@@ -15,9 +15,9 @@ qDebug().nospace().noquote() << table;
 
 #### Console:
 ```
-ID | NAME            | AGE
----+-----------------+----
-1  | Ivan Petrov     | 42 
-2  | LORD DESTRUCTOR | 14 
-3  | Petya           | 22 
+ ID | NAME            | AGE
+----+-----------------+----
+ 1  | Ivan Petrov     | 42 
+ 2  | LORD DESTRUCTOR | 14 
+ 3  | Petya           | 22 
 ```
